@@ -1,0 +1,32 @@
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.gifArea {
+  border: 1px solid;
+  /* display: flex; */
+}
+
+.movieForm {
+  border: 1px solid;
+}
+
+.buttons {
+  border: 1px solid;
+}
+
+.gifs {
+  float: left;
+  /* max-width: 200px; */
+}
+
+img {
+  max-width: 300px;
+}
