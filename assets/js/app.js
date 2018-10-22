@@ -30,7 +30,7 @@ $(document).on("click", ".movie", function () {
     console.log("click");
     event.preventDefault();
     var movie = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=s62m25VSdI2GEDmSCqsdB8puDw7F6XRh&limit=20";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=s62m25VSdI2GEDmSCqsdB8puDw7F6XRh&limit=20";
 
     $.ajax({
         url: queryURL,
